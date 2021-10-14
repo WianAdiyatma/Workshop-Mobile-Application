@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         bottomNavigation = findViewById(R.id.bottom_navigation);
         bottomNavigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+
+            //saat di klik akan memindahkan kita dari fragment 1 ke yang lainnya//
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment selectedFragment = null;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.navkontak:
                         selectedFragment = new Fragment();
                         break;
+                        //memberikan switch case agar kita bisa berganti navigasi saat kita tekan//
                 }
 
                 getSupportFragmentManager().beginTransaction().replace(R.id.FragmentContainer, selectedFragment).commit();
