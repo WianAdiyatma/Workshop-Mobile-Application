@@ -1,6 +1,4 @@
 
-
-
 list biodata
 ![Screenshot_20211024-125353_SQLite](https://user-images.githubusercontent.com/80669988/138582741-2d89a3ee-ad8d-4c57-8fa1-1f84906cbff7.jpg)
 
